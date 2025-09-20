@@ -1,0 +1,20 @@
+import turtle 
+wh=turtle.Screen()
+wh.bgcolor("white")
+tr=turtle.Turtle()
+
+tr.hideturtle()
+tr.fillcolor("red")
+tr.begin_fill()
+
+tr.forward(200)
+tr.left(90)
+tr.forward(50)
+tr.left(90)
+tr.forward(200)
+tr.left(90)
+tr.forward(50)
+tr.goto(0,0)
+tr.write("hello world", font=("Arial", 18, "bold"))
+tr.end_fill()
+turtle.done()
